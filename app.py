@@ -87,5 +87,5 @@ def prediction():
 
 
 if __name__=="__main__":
-    app.run(debug=True, host=0.0.0.0., port=8000) #creates a server
+    app.run(debug=True, host=0.0.0.0, port=8000) #creates a server
     #debug=True: any changes in code , automatically reflected in web page
