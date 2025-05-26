@@ -1,0 +1,9 @@
+Python 3.12.7
+
+create an env: open anaconda prompt- 
+
+conda create --name env_name python= python _version
+
+Activate env: conda activate env_name
+
+Deactivate env: conda deactivate
