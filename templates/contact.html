@@ -26,7 +26,7 @@
         <h1>Contact Us</h1>
         <p>If you have any questions, suggestions, or need support, please feel free to contact us using the form below.</p>
 
-        <form class="contact-form">
+        <form class="contact-form" onsubmit="handleFakeSubmit(event)">
           <div class="form-group">
             <label for="name">Your Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your full name" required />
@@ -49,6 +49,15 @@
 
           <button type="submit" class="btn">Send Message</button>
         </form>
+
+        <script>
+  function handleFakeSubmit(event) {
+    event.preventDefault(); // Prevent real submission
+    alert("Thank you for your message! (This form is not functional yet.)");
+    // Optionally reset form:
+    event.target.reset();
+  }
+</script>
       </div>
     </section>
 
